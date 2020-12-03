@@ -69,5 +69,12 @@ public class Peliculas {
     public void setId_director(int id) {
         this.id_director = id;
     }
+    
+    public String getPel_nom_director() {
+        return pel_nom_director;
+    }
 
+    public void setPel_nom_director(String nombre) {
+        this.pel_nom_director = nombre;
+    }
 }
